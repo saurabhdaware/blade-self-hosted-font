@@ -1,0 +1,22 @@
+{
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "stackblitz": {
+        "startCommand": "pnpm install && pnpm dev",
+        "installDependencies": false
+    },
+    "dependencies": {
+        "react": "^18",
+        "react-dom": "^18",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "@razorpay/blade": "https://pkg.csb.dev/razorpay/blade/commit/8981abea/@razorpay/blade",
+        "styled-components": "^5"
+    },
+    "devDependencies": {
+        "vite": "4.5.0",
+        "@vitejs/plugin-react": "4.1.1"
+    }
+}
