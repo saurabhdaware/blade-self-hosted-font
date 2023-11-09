@@ -1,41 +1,15 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createGlobalStyle } from "styled-components";
-
 import { BladeProvider, Box } from "@razorpay/blade/components";
 import { paymentTheme, createTheme } from "@razorpay/blade/tokens";
+import '@razorpay/blade/fonts.css';
 
 import App from "./App";
 
 const GlobalStyles = createGlobalStyle`
 * { 
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "TasaOrbiter";
-  src: url("/fonts/TASAOrbiterVF.woff2")
-    format("woff2-variations");
-  font-weight: 125 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('/fonts/Inter-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('/fonts/Inter-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
 }
 
 body {

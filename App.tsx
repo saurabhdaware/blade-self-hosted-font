@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Badge, InfoIcon } from '@razorpay/blade/components';
 
 const StyledDisplay = styled.h1`
-  font-family: "TasaOrbiter", -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+  font-family: "Tasa Orbiter", -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
   font-weight: 600;
   font-size: 72px;
   line-height: 78px;
@@ -11,7 +11,7 @@ const StyledDisplay = styled.h1`
 `;
 
 const StyledHeading = styled.h2`
-  font-family: "TasaOrbiter", -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+  font-family: "Tasa Orbiter", -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 38px;

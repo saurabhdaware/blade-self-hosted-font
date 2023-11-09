@@ -12,7 +12,7 @@
         "react-dom": "^18",
         "@types/react": "^18",
         "@types/react-dom": "^18",
-        "@razorpay/blade": "https://pkg.csb.dev/razorpay/blade/commit/8981abea/@razorpay/blade",
+        "@razorpay/blade": "https://pkg.csb.dev/razorpay/blade/commit/6a4abf31/@razorpay/blade",
         "styled-components": "^5"
     },
     "devDependencies": {
