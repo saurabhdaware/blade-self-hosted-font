@@ -1,0 +1,8 @@
+{
+  "editor.fontFamily": "Menlo, monospace, Cascadia Code, Consolas, Liberation Mono",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 2,
+  "editor.lineNumbers": "off",
+  "editor.renderLineHighlight": "none",
+  "editor.guides.indentation": false
+}
