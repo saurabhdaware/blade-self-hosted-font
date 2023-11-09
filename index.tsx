@@ -14,7 +14,7 @@ const GlobalStyles = createGlobalStyle`
 
 @font-face {
   font-family: "TasaOrbiter";
-  src: url("/fonts/tasa-orbiter/TASAOrbiterVF.woff2")
+  src: url("/fonts/TASAOrbiterVF.woff2")
     format("woff2-variations");
   font-weight: 125 950;
   font-stretch: 75% 125%;
@@ -23,14 +23,14 @@ const GlobalStyles = createGlobalStyle`
 
 @font-face {
   font-family: 'Inter';
-  src: url('/fonts/inter/Inter-Regular.ttf') format('truetype');
+  src: url('/fonts/Inter-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('/fonts/inter/Inter-SemiBold.ttf') format('truetype');
+  src: url('/fonts/Inter-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
