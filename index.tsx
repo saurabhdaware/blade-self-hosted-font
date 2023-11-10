@@ -1,8 +1,8 @@
-import React, { StrictMode } from "react";
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createGlobalStyle } from "styled-components";
 import { BladeProvider, Box } from "@razorpay/blade/components";
-import { paymentTheme, createTheme } from "@razorpay/blade/tokens";
+import { paymentTheme } from "@razorpay/blade/tokens";
 import '@razorpay/blade/fonts.css';
 
 import App from "./App";
@@ -17,6 +17,10 @@ body {
   padding: 0;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Tasa Orbiter", -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+}
 `;
 
 const rootElement = document.getElementById("root");
@@ -26,18 +30,10 @@ if (!rootElement) {
 }
 const root = createRoot(rootElement);
 
-const getTheme = () => {
-  if (false) {
-    return createTheme({
-      brandColor: "undefined",
-    });
-  }
-  return paymentTheme;
-};
 
 root.render(
   <StrictMode>
-    <BladeProvider themeTokens={getTheme()} colorScheme="light">
+    <BladeProvider themeTokens={paymentTheme} colorScheme="light">
       <GlobalStyles />
       <Box
         backgroundColor="surface.background.level1.lowContrast"
