@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@razorpay/blade':
-    specifier: https://pkg.csb.dev/razorpay/blade/commit/6a4abf31/@razorpay/blade
-    version: '@pkg.csb.dev/razorpay/blade/commit/6a4abf31/@razorpay/blade(@floating-ui/react-native@0.10.0)(@floating-ui/react@0.25.4)(@gorhom/portal@1.0.14)(react-dom@18.2.0)(react-native-gesture-handler@2.13.4)(react-native-pager-view@6.2.1)(react-native-svg@12.5.1)(react-native-tab-view@3.5.2)(react-native@0.72.6)(react@18.2.0)(styled-components@5.3.11)'
+    specifier: https://pkg.csb.dev/razorpay/blade/commit/3478e6df/@razorpay/blade
+    version: '@pkg.csb.dev/razorpay/blade/commit/3478e6df/@razorpay/blade(@floating-ui/react-native@0.10.0)(@floating-ui/react@0.25.4)(@gorhom/portal@1.0.14)(react-dom@18.2.0)(react-native-gesture-handler@2.13.4)(react-native-pager-view@6.2.1)(react-native-svg@12.5.1)(react-native-tab-view@3.5.2)(react-native@0.72.6)(react@18.2.0)(styled-components@5.3.11)'
   '@types/react':
     specifier: ^18
     version: 18.2.37
@@ -5346,9 +5346,9 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  '@pkg.csb.dev/razorpay/blade/commit/6a4abf31/@razorpay/blade(@floating-ui/react-native@0.10.0)(@floating-ui/react@0.25.4)(@gorhom/portal@1.0.14)(react-dom@18.2.0)(react-native-gesture-handler@2.13.4)(react-native-pager-view@6.2.1)(react-native-svg@12.5.1)(react-native-tab-view@3.5.2)(react-native@0.72.6)(react@18.2.0)(styled-components@5.3.11)':
-    resolution: {tarball: https://pkg.csb.dev/razorpay/blade/commit/6a4abf31/@razorpay/blade}
-    id: '@pkg.csb.dev/razorpay/blade/commit/6a4abf31/@razorpay/blade'
+  '@pkg.csb.dev/razorpay/blade/commit/3478e6df/@razorpay/blade(@floating-ui/react-native@0.10.0)(@floating-ui/react@0.25.4)(@gorhom/portal@1.0.14)(react-dom@18.2.0)(react-native-gesture-handler@2.13.4)(react-native-pager-view@6.2.1)(react-native-svg@12.5.1)(react-native-tab-view@3.5.2)(react-native@0.72.6)(react@18.2.0)(styled-components@5.3.11)':
+    resolution: {tarball: https://pkg.csb.dev/razorpay/blade/commit/3478e6df/@razorpay/blade}
+    id: '@pkg.csb.dev/razorpay/blade/commit/3478e6df/@razorpay/blade'
     name: '@razorpay/blade'
     version: 10.17.4
     engines: {node: '>=18.12.1'}
