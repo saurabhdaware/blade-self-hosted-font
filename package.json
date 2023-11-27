@@ -8,7 +8,7 @@
         "installDependencies": false
     },
     "dependencies": {
-        "@razorpay/blade": "https://pkg.csb.dev/razorpay/blade/commit/09774406/@razorpay/blade",
+        "@razorpay/blade": "https://pkg.csb.dev/razorpay/blade/commit/3b87ce96/@razorpay/blade",
         "@types/react": "^18",
         "@types/react-dom": "^18",
         "react": "^18",
