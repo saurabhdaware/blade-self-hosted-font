@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Badge, InfoIcon } from '@razorpay/blade/components';
 
 const StyledDisplay = styled.h1`
-  font-family: "TasaOrbiter", -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
   font-weight: 600;
   font-size: 72px;
   line-height: 78px;
@@ -11,7 +9,6 @@ const StyledDisplay = styled.h1`
 `;
 
 const StyledHeading = styled.h2`
-  font-family: "TasaOrbiter", -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 38px;
@@ -25,12 +22,17 @@ const StyledText = styled.p`
   margin: 18px 0px 0px 0px;
 `;
 
+const Semibold = styled.span`
+  font-weight: 600;
+`
+
 function App(): React.ReactElement {
   return (
     <>
       <StyledDisplay>DisplayXLarge</StyledDisplay>
-      <StyledHeading>HeadingXLarge</StyledHeading>
-      <StyledText>Some Random Lorem Ipsum Text</StyledText>
+      <StyledHeading>HeadingXLarge</StyledHeading>      
+      <StyledText><Semibold>Inter:</Semibold> Some Random Lorem Ipsum Text 12434  ₹ &, $ @ "", \=-939=+_!@#$%^&*() </StyledText>
+      <StyledText style={{ fontFamily: '-apple-system, sans-serif' }}><Semibold>Fallback:</Semibold> Some Random Lorem Ipsum Text 12434  ₹ &, $ @ "", \=-939=+_!@#$%^&*() </StyledText>
     </>
   );
 }
