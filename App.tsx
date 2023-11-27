@@ -19,17 +19,20 @@ const StyledText = styled.p`
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  font-style: italic;
   margin: 18px 0px 0px 0px;
 `;
+
+const Semibold = styled.span`
+  font-weight: 600;
+`
 
 function App(): React.ReactElement {
   return (
     <>
       <StyledDisplay>DisplayXLarge</StyledDisplay>
-      <StyledHeading>HeadingXLarge</StyledHeading>
-      <StyledText>Some Random Lorem Ipsum Text 12434  ₹ &, $ @ "", \=-939=+_!@#$%^&*() </StyledText>
-      <StyledText style={{ fontFamily: '-apple-system, sans-serif' }}>Some Random Lorem Ipsum Text 12434  ₹ &, $ @ "", \=-939=+_!@#$%^&*() </StyledText>
+      <StyledHeading>HeadingXLarge</StyledHeading>      
+      <StyledText><Semibold>Inter:</Semibold> Some Random Lorem Ipsum Text 12434  ₹ &, $ @ "", \=-939=+_!@#$%^&*() </StyledText>
+      <StyledText style={{ fontFamily: '-apple-system, sans-serif' }}><Semibold>Fallback:</Semibold> Some Random Lorem Ipsum Text 12434  ₹ &, $ @ "", \=-939=+_!@#$%^&*() </StyledText>
     </>
   );
 }
